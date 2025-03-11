@@ -2,7 +2,7 @@
 include("restKezelo.php");
 include("oscar.php");
 
-class OscarRestKEzelo extends RestKezelo{
+class OscarRestKezelo extends RestKezelo{
     function getAllOscars(){
         $oscars = new Oscar();
         $sorAdat = $oscars->getAllOscars();
