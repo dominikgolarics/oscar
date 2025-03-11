@@ -15,7 +15,7 @@ if(isset($_GET["view"])){
             break;
         case "type":
             $oscarrest = new OscarRestKezelo();
-            $oscarrest->getOscarByType($_GET["tid"]);
+            $oscarrest->getOscarByType($_GET["name"]);
             break;
         default:
             $oscarrest = new OscarRestKezelo();
